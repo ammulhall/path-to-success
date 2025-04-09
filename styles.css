@@ -54,13 +54,15 @@ table {
 
 /* ROOT VARIABLES */
 :root {
-    --teal-:#4CA7C0
-    --purple-:#484FB7
-    --lavender-:#6B8FE7
-    --yellow-:#E9BB57
-    --dk-gray:#1E1E1E
-    --white-:#ffffff
-    font-stack: 'Inter';
+    --teal-: #4CA7C0;
+    --purple-: #484FB7;
+    --lavender-: #6B8FE7;
+    --yellow-: #E9BB57;
+    --dk-gray: #1E1E1E;
+    --white-: #ffffff;
+    --font-stack: 'Inter';
+    max-width: 450px;
+    background-color: var(--lavender-);
 }
 h1, h2 {
     font-family: 'Kavoon';
@@ -82,3 +84,7 @@ h4 {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    background-color: var(--purple-);
+    text-align: center;
+}
