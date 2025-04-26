@@ -78,6 +78,8 @@ h1 {
 h2 {
     font-size: 2em;
     color: var(--white-);
+    text-align: left;
+    padding: 10px;
     
 }
 h3 {
@@ -265,12 +267,73 @@ header p {
 #why li:nth-child(1) {
     background-color: var(--teal-);
   }
-  #why li:nth-child(2) {
+#why li:nth-child(2) {
     background-color: var(--lavender-);
   }
-  #why li:nth-child(3) {
+#why li:nth-child(3) {
     background-color: var(--yellow-);
   }
-  #why li:nth-child(4) {
+#why li:nth-child(4) {
     background-color: var(--white-);
   }
+#table1 h3{
+    text-align: left;
+    padding: 10px;
+}
+#table1 table {
+    width: 60%;
+    background-color: var(--yellow-);
+    border-collapse: separate;
+    border-spacing: 2.5px; 
+    padding: 10px;
+    margin: 0 auto;
+}
+#table1 tbody td {
+    background-color: var(--white-);
+    padding: 15px 5px;
+    text-align: center;
+}
+#table1 thead {
+    font-weight: bold;
+}
+#table2 h3{
+    text-align: left;
+    padding: 10px;
+}
+#table2 table {
+    width: 60%;
+    background-color: var(--yellow-);
+    border-collapse: separate;
+    border-spacing: 2.5px; 
+    padding: 10px;
+    margin: 0 auto;
+}
+  
+#table2 tbody td {
+    background-color: var(--white-);
+    padding: 15px 5px;
+    text-align: center;
+}
+#table2 thead {
+    font-weight: bold;
+}
+#table3 h3{
+    text-align: left;
+    padding: 10px;
+}
+#table3 table {
+    width: 60%;
+    background-color: var(--yellow-);
+    border-collapse: separate;
+    border-spacing: 2.5px; 
+    padding: 10px;
+    margin: 0 auto;
+}
+#table3 tbody td {
+    background-color: var(--white-);
+    padding: 15px 5px;
+    text-align: center;
+}
+#table3 thead {
+    font-weight: bold;
+}
