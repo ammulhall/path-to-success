@@ -93,7 +93,10 @@ h4 {
     font-family: var(--font-stack);
 }
 
-/* GLOBAL STYLES (mobile first/small) */
+#head1, #head2, #head3 {
+    text-align: left;
+    padding: 10px;
+}
 body {
     background-color: var(--purple-);
     text-align: center;
@@ -117,6 +120,7 @@ header p {
 #nav h3 {
     color: var(--dk-gray);
     padding: 10px;
+    font-style: italic;
 }
 #nav li {
     display: block;
@@ -128,7 +132,7 @@ header p {
 #nav a{
     text-decoration: none;
 }
-#services {
+#services h3 {
     padding: 10px;
     text-align: left;
     margin-bottom: 10px;
