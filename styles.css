@@ -82,28 +82,38 @@ h2 {
 h3 {
     font-size: 1.5em;
     color: var(--yellow-);
+    font-family: var(--font-stack);
 }
 h4 {
     font-size: 1.15em;
     color: var(--purple-);
+    font-family: var(--font-stack);
 }
 
 /* GLOBAL STYLES (mobile first/small) */
 body {
     background-color: var(--purple-);
     text-align: center;
+    font-family: var(--font-stack);
+}
+header {
+    padding: 20px;
 }
 header p {
     color: var(--white-);
     margin-bottom: 20px;
+    padding: 20px;
 }
 #nav {
     background-color: var(--yellow- );
     text-transform: uppercase;
     padding: 10px;
+    font-family: var(--font-stack);
+    font-weight: bold;
 }
 #nav h3 {
     color: var(--dk-gray);
+    padding: 10px;
 }
 #nav li {
     display: block;
@@ -111,5 +121,28 @@ header p {
     border: 1px solid #ccc;     
     padding: 12px;               
     margin: 0 20px 10px 20px;       
-    text-decoration: none; 
+}
+#nav a{
+    text-decoration: none;
+}
+#services {
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#personal {
+    display: block;
+    background-color: var(--white-);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    line-height: 24px;
+}
+#personal h4 {
+    font-weight: bold;
+    margin: 10px;
+}
+#personal p {
+    margin: 10px;
 }
