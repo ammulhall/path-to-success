@@ -69,6 +69,7 @@ h1, h2 {
 }
 h1 {
     font-size: 3em;
+    color: var(--white-);
 }
 #nav h2 {
     font-size: 1.5em;
@@ -91,4 +92,24 @@ h4 {
 body {
     background-color: var(--purple-);
     text-align: center;
+}
+header p {
+    color: var(--white-);
+    margin-bottom: 20px;
+}
+#nav {
+    background-color: var(--yellow- );
+    text-transform: uppercase;
+    padding: 10px;
+}
+#nav h3 {
+    color: var(--dk-gray);
+}
+#nav li {
+    display: block;
+    background-color: var(--white-);
+    border: 1px solid #ccc;     
+    padding: 12px;               
+    margin: 0 20px 10px 20px;       
+    text-decoration: none; 
 }
