@@ -58,6 +58,7 @@ table {
     --purple-: #484FB7;
     --lavender-: #6B8FE7;
     --yellow-: #E9BB57;
+    --pink-: #D9526F;
     --dk-gray: #1E1E1E;
     --white-: #ffffff;
     --font-stack: 'Inter';
@@ -146,3 +147,130 @@ header p {
 #personal p {
     margin: 10px;
 }
+#career {
+    display: block;
+    background-color: var(--white-);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#career h4 {
+    font-weight: bold;
+    margin: 10px;
+}
+#career p {
+    margin: 10px;
+}
+#relationship {
+    display: block;
+    background-color: var(--white-);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#relationship h4 {
+    font-weight: bold;
+    margin: 10px;
+}
+#relationship p {
+    margin: 10px;
+}
+#supportive {
+    display: block;
+    background-color: var(--white-);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#supportive h4 {
+    font-weight: bold;
+    margin: 10px;
+}
+#supportive p {
+    margin: 10px;
+}
+#focused {
+    display: block;
+    background-color: var(--white-);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#focused h4 {
+    font-weight: bold;
+    margin: 10px;
+}
+#focused p {
+    margin: 10px;
+}
+#interactive {
+    display: block;
+    background-color: var(--white-);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#interactive h4 {
+    font-weight: bold;
+    margin: 10px;
+}
+#interactive p {
+    margin: 10px;
+}
+#flexible {
+    display: block;
+    background-color: var(--white-);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#flexible h4 {
+    font-weight: bold;
+    margin: 10px;
+}
+#flexible p {
+    margin: 10px;
+}
+#why {
+    display: block;
+    background-color: var(--pink-)
+}
+#why h2 {
+    text-align: left;
+    padding: 10px;
+}
+#why ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+#why li {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#why li:nth-child(1) {
+    background-color: var(--teal-);
+  }
+  #why li:nth-child(2) {
+    background-color: var(--lavender-);
+  }
+  #why li:nth-child(3) {
+    background-color: var(--yellow-);
+  }
+  #why li:nth-child(4) {
+    background-color: var(--white-);
+  }
